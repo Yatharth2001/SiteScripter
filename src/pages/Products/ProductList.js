@@ -5,7 +5,7 @@ import { FilterBar } from "./components/FilterBar";
 import { useTitle } from "../../hooks/useTitle";
 import { useFilter } from "../../context";
 import { getProductList } from "../../services";
-import { CloseButton, toast } from "react-toastify";
+import { CloseButton, toast } from "react-toastify"; // eslint-disable-line
 
 export const ProductList = () => {
   const { products, initialProductList } = useFilter();
